@@ -7,9 +7,11 @@ function getRandomColor() {
 			return color;
 	}
 
-	var color = []
-	for(i = 0; i < 50; i++){
-		color.push(getRandomColor())
-	}
+var color = []
+var arraySize = 50
 
-	console.log(color)
+for(i = 0; i < arraySize; i++){
+	color.push(getRandomColor())
+}
+
+console.log(color)
